@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GAME TITLE — Battle in Style</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">GAME<span>•</span>TITLE</div>
+      <nav class="nav">
+        <a href="#news">News</a>
+        <a href="#features">Features</a>
+        <a href="#download" class="btn btn-small">Download</a>
+      </nav>
+      <button class="hamburger" aria-label="menu" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" id="heroBg"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title">BATTLE<br/><span>IN STYLE</span></h1>
+          <p class="hero-sub">Fast action, vivid arenas and monthly events. Jump in — the match begins now.</p>
+          <div class="hero-cta">
+            <a class="store-btn" href="#" aria-label="App Store">
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect width='100%' height='100%' fill='%23000'/></svg>" alt="" />
+              App Store
+            </a>
+            <a class="store-btn" href="#" aria-label="Google Play">
+              <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect width='100%' height='100%' fill='%23000'/></svg>" alt="" />
+              Google Play
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- decorative card with character image (replace with your image) -->
+          <div class="card-3d" id="card3d">
+            <img src="images/character-1.jpg" alt="character" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LATEST NEWS -->
+    <section id="news" class="news-section wrap">
+      <h2 class="section-title">LATEST NEWS</h2>
+      <div class="news-strip" id="newsStrip">
+        <!-- cards -->
+        <article class="news-card">
+          <img src="images/news1.jpg" alt="">
+          <div class="news-body">
+            <time>19/11/2025</time>
+            <h3>Champions: New World Winner</h3>
+            <p>Thailand’s Buriram United Esports triumphs as champion in global final.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="images/news2.jpg" alt="">
+          <div class="news-body">
+            <time>29/10/2025</time>
+            <h3>OB51 Patch Notes</h3>
+            <p>Gameplay fixes, new map tweaks, and balancing changes in the latest patch.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="images/news3.jpg" alt="">
+          <div class="news-body">
+            <time>15/08/2025</time>
+            <h3>Collab Event Live</h3>
+            <p>Special crossover characters and limited-time rewards. Don't miss out.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="news-controls">
+        <button id="prevNews" aria-label="previous">‹</button>
+        <button id="nextNews" aria-label="next">›</button>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features wrap">
+      <h2 class="section-title">FEATURE HIGHLIGHTS</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h4>Fast Matches</h4>
+          <p>Short, intense rounds designed for mobile gameplay.</p>
+        </div>
+        <div class="feature">
+          <h4>Competitive Events</h4>
+          <p>Seasonal tournaments and ranked ladders for pros.</p>
+        </div>
+        <div class="feature">
+          <h4>Custom Skins</h4>
+          <p>Unique cosmetic items and seasonal rewards.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / DOWNLOAD -->
+    <footer id="download" class="site-footer">
+      <div class="wrap footer-inner">
+        <div class="col">
+          <h3>GAME TITLE</h3>
+          <p>Join the arena. Be legendary.</p>
+        </div>
+        <div class="col">
+          <h4>Download</h4>
+          <div class="hero-cta">
+            <a class="store-btn" href="#">App Store</a>
+            <a class="store-btn" href="#">Google Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© <span id="year"></span> GAME TITLE. All rights reserved.</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
